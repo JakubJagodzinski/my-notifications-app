@@ -5,6 +5,7 @@ A simple notifications application in client-server architecture written in Java
 ## Contents
 - [Server application](#server-application)
   - [Server welcome message](#server-welcome-message)
+  - [Server info](#server-info)
   - [Print server time statistics](#print-server-time-statistics)
   - [List all connected clients](#list-all-connected-clients)
   - [List all queued requests](#list-all-queued-requests)
@@ -21,6 +22,9 @@ A simple notifications application in client-server architecture written in Java
 Server accepts requests from clients, then the requests are queued and resend to clients at desired time.
 ### Server welcome message
 ![Server](screenshots/server/server.png)
+
+### Server info
+![Server info](screenshots/server/server_info.png)
 
 ### Print server time statistics
 ![Time](screenshots/server/time.png)
